@@ -1,3 +1,3 @@
-import test from './test';
+import {sum} from './sample';
 
-console.log(test());
+console.log(`3 + 5 = ${sum(3,5)}`);
